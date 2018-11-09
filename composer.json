@@ -1,0 +1,9 @@
+{
+    "name": "anomaly/ip_filter_security_check-extension",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\IpFilterSecurityCheckExtension\\": "src/"
+        }
+    }
+}
