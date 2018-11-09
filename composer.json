@@ -1,6 +1,34 @@
 {
     "name": "anomaly/ip_filter_security_check-extension",
     "type": "streams-addon",
+    "description": "Restrict control panel access by IP.",
+    "keywords": [
+        "streams module",
+        "security check",
+        "ip filter"
+    ],
+    "homepage": "http://pyrocms.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PyroCMS, Inc.",
+            "email": "support@pyrocms.com",
+            "homepage": "http://pyrocms.com/",
+            "role": "Owner"
+        },
+        {
+            "name": "Ryan Thompson",
+            "email": "ryan@pyrocms.com",
+            "homepage": "http://ryanthepyro.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@pyrocms.com"
+    },
+    "require": {
+        "anomaly/users-module": "^2.2"
+    },
     "autoload": {
         "psr-4": {
             "Anomaly\\IpFilterSecurityCheckExtension\\": "src/"
